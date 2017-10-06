@@ -1,5 +1,5 @@
 import sys
-if len(sys.argv<4):
+if len(sys.argv)<4:
     print 'wrong argument.'
     print 'please input: process_output.py herb_file symptom_file output_file'
     
