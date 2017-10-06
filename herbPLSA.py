@@ -172,7 +172,7 @@ def em():
 def input_data():
 	print "start read word dict"
 	
-	fin = open("..\..\data\clean_data\HIS_tuple.txt","r")
+	fin = open("..\..\data\HIS_tuple.txt","r")
 	tN=0
 	for line in fin:
 		gv.transection_PSH[tN] = {}
@@ -231,7 +231,7 @@ def get_PHSD(p,h,s,d):
 	return ans
 
 def output_data(citera):
-	root = "..\..\\output\\topic_model\herbPLSA\\result\\"
+	root = "..\..\\output\\result\\"
 	if not os.path.isdir(root):
 		os.mkdir(root)
 	nD = gv.nSyndrome
