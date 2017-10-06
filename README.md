@@ -1,5 +1,5 @@
 # proTCM
-###Author: Sheng Wang
+### Author: Sheng Wang
 A graphical model for mining symptom-herb relationship from electronic medical record
 
 ## inference
@@ -21,10 +21,10 @@ Output: output will be written to output_file
 $ python process_output.py herb_file symptom_file output_file
 ```
 
-##contact: 
+## contact: 
 swang141@illinois.edu
 
-##related papers:
+## related papers:
 Sheng Wang, Edward Huang, Runshun Zhang, Xiaoping Zhang, Baoyan Liu, Xuezhong Zhou, ChengXiang Zhai. 
 A Conditional Probabilistic Model for Joint Analysis of Symptoms, Diagnoses, and Herbs in Traditional Chinese Medicine Patient Records.
 IEEE International Conference on Bioinformatics and Biomedicine (BIBM), 2017
